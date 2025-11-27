@@ -43,9 +43,31 @@ a:hover {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
+.site-branding {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.site-logo {
+    display: block;
+    flex-shrink: 0;
+}
+
+.site-logo img {
+    height: 60px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.site-logo:hover img {
+    transform: scale(1.05);
+}
+
 .site-title {
     font-size: 2.5em;
-    margin-bottom: 5px;
+    margin: 0;
 }
 
 .site-title a {
@@ -562,6 +584,16 @@ a:hover {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .site-branding {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .site-logo img {
+        height: 50px;
+    }
+    
     .site-title {
         font-size: 2em;
     }

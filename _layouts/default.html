@@ -23,7 +23,12 @@
 <body>
     <header class="site-header">
         <div class="container">
-            <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+            <div class="site-branding">
+                <a href="{{ '/' | relative_url }}" class="site-logo">
+                    <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="{{ site.title }} logo">
+                </a>
+                <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+            </div>
             <nav class="site-nav">
                 <a href="{{ '/' | relative_url }}">Home</a>
                 <a href="{{ '/categories.html' | relative_url }}">Categories</a>
