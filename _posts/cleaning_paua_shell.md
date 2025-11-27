@@ -36,6 +36,7 @@ The shells will require cleaning to make them shine. It can take a long time but
   - [Soak the shells in vinegar](#soak-the-shells-in-vinegar)
   - [Sand the outside of the shells](#sand-the-outside-of-the-shells)
   - [Paint](#paint)
+  - [Afterwards](#afterwards)
 
 ## Collect shells
 
@@ -76,3 +77,7 @@ When you're happy with the result, clean the shell in clean water to remove any 
 ## Paint
 
 Optional: using a spray clear gloss varnish, follow the instructions on the can to spray your shell. This should stop it going dull over time and protect it from minor scratches.
+
+## Afterwards
+
+You can simply enjoy your polished paua shells for their beauty or use them in whatever other craft projects you desire.
