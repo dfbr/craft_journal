@@ -24,20 +24,41 @@ layout: default
         {% endif %}
     </header>
 
+    {% if page.project_details %}
+    <div class="project-details">
+        <table class="details-table">
+            <thead>
+                <tr>
+                    <th colspan="2">Project Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for detail in page.project_details %}
+                <tr>
+                    <td class="detail-label">{{ detail[0] }}</td>
+                    <td>
+                        {% if detail[1].first %}
+                        <ul class="detail-list">
+                            {% for item in detail[1] %}
+                            <li>{{ item }}</li>
+                            {% endfor %}
+                        </ul>
+                        {% else %}
+                        {{ detail[1] }}
+                        {% endif %}
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% endif %}
+
     <div class="post-content">
         {{ content }}
     </div>
 
     <footer class="post-footer">
-        <div class="post-tags">
-            {% if page.tags %}
-            <span class="tags-label">Tags:</span>
-            {% for tag in page.tags %}
-            <span class="tag">{{ tag }}</span>
-            {% endfor %}
-            {% endif %}
-        </div>
-        
         <div class="post-navigation">
             {% if page.previous.url %}
             <a href="{{ page.previous.url | relative_url }}" class="prev-post">&larr; {{ page.previous.title }}</a>

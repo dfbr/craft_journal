@@ -1,6 +1,6 @@
 title: Craft Journal
-description: My personal crafting journal
-url: "https://yourusername.github.io"
+description: A journal of various craft projects
+url: "https://dfbr.github.io"
 baseurl: "/craft_journal"
 
 # Build settings
@@ -24,9 +24,16 @@ collections:
 posts_per_page: 5
 show_excerpts: true
 
+# Feed settings
+feed:
+  posts_limit: 100
+  excerpt_only: false
+
 # Exclude from processing
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
   - vendor/
+  - .git/
+  - .gitignore

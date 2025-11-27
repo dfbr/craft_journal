@@ -1,0 +1,59 @@
+---
+layout: default
+title: All Posts
+---
+
+<div class="archive">
+    <h2>All Posts</h2>
+    
+    {% for post in site.posts %}
+        {% assign current_year = post.date | date: "%Y" %}
+        {% assign previous_year = post.previous.date | date: "%Y" %}
+        
+        {% if forloop.first or current_year != previous_year %}
+        <h3 class="archive-year">{{ current_year }}</h3>
+        {% endif %}
+        
+        <article class="archive-post">
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d" }}</time>
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </article>
+    {% endfor %}
+</div>
+
+<style>
+.archive h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #333;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+}
+
+.archive-year {
+    margin: 30px 0 15px;
+    font-size: 1.5em;
+    color: #007bff;
+}
+
+.archive-post {
+    padding: 10px 0;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.archive-post time {
+    display: inline-block;
+    width: 80px;
+    color: #666;
+    font-size: 0.9em;
+}
+
+.archive-post a {
+    color: #333;
+    font-weight: 500;
+}
+
+.archive-post a:hover {
+    color: #007bff;
+}
+</style>
