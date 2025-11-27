@@ -3,8 +3,17 @@ layout: post
 title: "My First Knitting Project"
 date: 2025-11-20 14:30:00 -0000
 categories: [Knitting, Beginner Projects, Scarves]
-tags: [yarn, needles, winter-wear]
 author: Crafty Person
+project_details:
+  Difficulty: Beginner
+  Time Required: 10-15 hours
+  Equipment:
+    - Size 8 (5mm) straight needles
+    - Yarn needle for weaving in ends
+    - Scissors
+  Resources:
+    - Medium weight acrylic yarn (approximately 400 yards)
+    - Stitch markers (optional)
 ---
 
 Today I started my very first knitting project! I decided to make a simple scarf using basic garter stitch. 

@@ -3,8 +3,19 @@ layout: post
 title: "Upcycled Denim Tote Bag"
 date: 2025-11-10 16:45:00 -0000
 categories: [Sewing, Upcycling, Bags and Accessories]
-tags: [denim, sustainable-crafting, tote-bag, beginner-sewing]
 author: Crafty Person
+project_details:
+  Difficulty: Beginner
+  Time Required: 2-3 hours
+  Equipment:
+    - Sewing machine or needle for hand sewing
+    - Scissors
+    - Pins
+    - Measuring tape
+  Resources:
+    - Old pair of jeans
+    - Matching thread
+    - Optional lining fabric
 ---
 
 Instead of throwing away my old worn-out jeans, I decided to transform them into a sturdy tote bag. This project is perfect for beginners and promotes sustainable crafting!

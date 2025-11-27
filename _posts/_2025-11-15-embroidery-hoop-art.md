@@ -3,8 +3,18 @@ layout: post
 title: "Embroidery Hoop Art: Floral Design"
 date: 2025-11-15 10:00:00 -0000
 categories: [Embroidery, Wall Art, Floral Designs]
-tags: [embroidery-hoop, flowers, home-decor]
 author: Crafty Person
+project_details:
+  Difficulty: Intermediate
+  Time Required: 8 hours over 3 days
+  Equipment:
+    - 8-inch wooden embroidery hoop
+    - Embroidery needles (size 5-7)
+    - Water-soluble fabric marker
+    - Scissors
+  Resources:
+    - Cotton fabric (cream colored)
+    - Embroidery floss in various colors (pinks, purples, greens, yellows)
 ---
 
 I've always admired embroidery hoop art and finally decided to create my own piece featuring wildflowers.
