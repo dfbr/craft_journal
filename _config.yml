@@ -38,3 +38,4 @@ exclude:
   - vendor/
   - .git/
   - .gitignore
+  - generate_favicons.py
