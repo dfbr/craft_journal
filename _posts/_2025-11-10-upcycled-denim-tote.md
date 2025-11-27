@@ -4,6 +4,7 @@ title: "Upcycled Denim Tote Bag"
 date: 2025-11-10 16:45:00 -0000
 categories: [Sewing, Upcycling, Bags and Accessories]
 author: Crafty Person
+featured_image: /assets/images/posts/denim-tote/featured.jpg
 project_details:
   Difficulty: Beginner
   Time Required: 2-3 hours

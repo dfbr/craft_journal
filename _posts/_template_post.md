@@ -4,6 +4,7 @@ title: "Your Post Title Here"
 date: YYYY-MM-DD HH:MM:SS -0000
 categories: [Category 1, Category 2, Category 3]
 author: Your Name
+featured_image: /assets/images/posts/your-post-name/featured.jpg
 project_details:
   Difficulty: Beginner/Intermediate/Advanced
   Time Required: X hours/days

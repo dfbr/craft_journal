@@ -4,6 +4,7 @@ title: "Cleaning paua shells"
 date: 2025-11-27 00:00:00 -0000
 categories: [Cleaning, paua, polishing]
 author: Dave Rowan
+featured_image: /assets/images/posts/cleaning-paua-shell/featured.jpg
 project_details:
   Difficulty: Easy
   Time Required: 4 hours plus soaking time

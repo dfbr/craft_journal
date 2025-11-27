@@ -28,6 +28,7 @@ show_excerpts: true
 feed:
   posts_limit: 100
   excerpt_only: false
+  image: true
 
 # Exclude from processing
 exclude:

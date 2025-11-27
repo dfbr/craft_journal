@@ -4,6 +4,7 @@ title: "Embroidery Hoop Art: Floral Design"
 date: 2025-11-15 10:00:00 -0000
 categories: [Embroidery, Wall Art, Floral Designs]
 author: Crafty Person
+featured_image: /assets/images/posts/embroidery-hoop/featured.jpg
 project_details:
   Difficulty: Intermediate
   Time Required: 8 hours over 3 days

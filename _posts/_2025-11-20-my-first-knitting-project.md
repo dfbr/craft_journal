@@ -4,6 +4,7 @@ title: "My First Knitting Project"
 date: 2025-11-20 14:30:00 -0000
 categories: [Knitting, Beginner Projects, Scarves]
 author: Crafty Person
+featured_image: /assets/images/posts/knitting-scarf/featured.jpg
 project_details:
   Difficulty: Beginner
   Time Required: 10-15 hours

@@ -82,6 +82,10 @@ a:hover {
 }
 
 /* Home Page - Post List */
+.home {
+    margin-top: 20px;
+}
+
 .home h2 {
     font-size: 2em;
     margin-bottom: 30px;
@@ -106,6 +110,23 @@ a:hover {
 .post-preview:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.post-featured-image {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.post-featured-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.post-featured-image a:hover img {
+    transform: scale(1.05);
 }
 
 .post-preview h3 {
@@ -203,6 +224,18 @@ a:hover {
     padding: 40px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.post-featured-image-full {
+    margin: -40px -40px 30px -40px;
+    border-radius: 8px 8px 0 0;
+    overflow: hidden;
+}
+
+.post-featured-image-full img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .post-header {
