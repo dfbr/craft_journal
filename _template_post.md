@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Your Post Title Here"
-date: YYYY-MM-DD HH:MM:SS -0000
+date: YYYY-MM-DD 00:00:00 -0000
 categories: [Category 1, Category 2, Category 3]
 author: Your Name
 featured_image: /assets/images/posts/your-post-name/featured.jpg
