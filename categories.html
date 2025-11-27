@@ -42,7 +42,7 @@ title: Categories
     
     <!-- Posts by Category -->
     <div class="categories-content">
-        <section class="category-section" id="{{ category | slugify }}" data-category="{{ category | downcase }}">
+        {% for category in sorted_categories %}
         <section class="category-section" id="{{ category | slugify }}" data-category="{{ category | downcase }}">
             <h3 class="category-heading">{{ category }}</h3>
             
