@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Cleaning paua shells"
+title: "Cleaning pāua shells"
 date: 2025-11-27 00:00:00 -0000
-categories: [cleaning, paua, polishing]
+categories: [cleaning, pāua, polishing]
 author: Dave Rowan
 featured_image: /assets/images/posts/cleaning-paua-shell/featured.jpg
 project_details:
@@ -14,24 +14,24 @@ project_details:
     - Scrubbing brush
     - Sanding blocks (60 - 1000 grit)
   Resources:
-    - Paua shells
+    - Pāua shells
     - Bleach
     - Cleaning vinegar
     - Water
     - Spray varnish, clear gloss
   Suitable for Kids: Yes (all ages)
-excerpt: "Learn how to clean and polish paua shells collected from the beach. A fun family-friendly activity that creates beautiful keepsakes."
+excerpt: "Clean and polish pāua shells collected from the beach. A fun family-friendly activity that creates beautiful keepsakes."
 ---
 
-# Paua shell cleaning and polishing
+# Pāua shell cleaning and polishing
 
-Paua shells are beautiful! In New Zealand you can collect them from the beach or, within the local rules, collect them from the sea bed while still alive.
+Pāua shells (also known as abalone) are beautiful! In New Zealand you can collect them from the beach or, within the local rules, collect them from the sea bed while still alive.
 
 The shells will require cleaning to make them shine. It can take a long time but at least a few times is worth the effort. It's a fun activity for the kids after a day on the beach.
 
 ## Overview
 
-- [Paua shell cleaning and polishing](#paua-shell-cleaning-and-polishing)
+- [Pāua shell cleaning and polishing](#pāua-shell-cleaning-and-polishing)
   - [Overview](#overview)
   - [Collect shells](#collect-shells)
   - [Clean and bleach the shells](#clean-and-bleach-the-shells)
@@ -42,7 +42,7 @@ The shells will require cleaning to make them shine. It can take a long time but
 
 ## Collect shells
 
-Collect your paua shells according to the [rules](https://www.mpi.govt.nz/fishing-aquaculture/recreational-fishing/fishing-rules-for-gear-methods-and-species/paua-rules-and-guidelines).
+Collect your pāua shells according to the [rules](https://www.mpi.govt.nz/fishing-aquaculture/recreational-fishing/fishing-rules-for-gear-methods-and-species/paua-rules-and-guidelines).
 
 Take them home.
 
@@ -82,4 +82,4 @@ Optional: using a spray clear gloss varnish, follow the instructions on the can 
 
 ## Afterwards
 
-You can simply enjoy your polished paua shells for their beauty or use them in whatever other craft projects you desire.
+You can simply enjoy your polished pāua shells for their beauty or use them in whatever other craft projects you desire.
