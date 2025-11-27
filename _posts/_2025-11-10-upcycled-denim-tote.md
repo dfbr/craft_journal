@@ -16,6 +16,7 @@ project_details:
     - Old pair of jeans
     - Matching thread
     - Optional lining fabric
+excerpt: "Transform old jeans into a sturdy, functional tote bag. A sustainable crafting project perfect for beginners."
 ---
 
 Instead of throwing away my old worn-out jeans, I decided to transform them into a sturdy tote bag. This project is perfect for beginners and promotes sustainable crafting!

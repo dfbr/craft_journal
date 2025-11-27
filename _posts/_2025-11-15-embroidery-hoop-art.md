@@ -15,6 +15,7 @@ project_details:
   Resources:
     - Cotton fabric (cream colored)
     - Embroidery floss in various colors (pinks, purples, greens, yellows)
+excerpt: "Creating a wildflower embroidery hoop art piece using various stitches including lazy daisy, French knots, and satin stitch."
 ---
 
 I've always admired embroidery hoop art and finally decided to create my own piece featuring wildflowers.

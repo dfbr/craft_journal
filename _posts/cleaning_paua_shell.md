@@ -19,6 +19,7 @@ project_details:
     - Water
     - Spray varnish, clear gloss
   Suitable for Kids: Yes (all ages)
+excerpt: "Learn how to clean and polish paua shells collected from the beach. A fun family-friendly activity that creates beautiful keepsakes."
 ---
 
 # Paua shell cleaning and polishing

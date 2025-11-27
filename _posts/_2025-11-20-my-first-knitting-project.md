@@ -14,6 +14,7 @@ project_details:
   Resources:
     - Medium weight acrylic yarn (approximately 400 yards)
     - Stitch markers (optional)
+excerpt: "My journey learning to knit, starting with a simple garter stitch scarf. Tips for beginners and lessons learned along the way."
 ---
 
 Today I started my very first knitting project! I decided to make a simple scarf using basic garter stitch. 

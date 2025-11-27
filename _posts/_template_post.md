@@ -15,6 +15,7 @@ project_details:
     - Resource item 1
     - Resource item 2
     - Resource item 3
+excerpt: "A brief summary of your post (1-2 sentences). This appears in RSS feeds, post previews, and search results."
 ---
 
 Write your post content here. This is the main body of your blog post.
