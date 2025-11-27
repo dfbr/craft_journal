@@ -39,3 +39,4 @@ exclude:
   - .git/
   - .gitignore
   - generate_favicons.py
+  - _template_post.md
