@@ -18,30 +18,32 @@ title: Home
                 </a>
             </div>
             {% endif %}
-            <h3 class="post-title">
-                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-            </h3>
-            <div class="post-meta">
-                <time datetime="{{ post.date | date_to_xmlschema }}">
-                    {{ post.date | date: "%B %d, %Y" }}
-                </time>
+            <div class="post-preview-content">
+                <h3 class="post-title">
+                    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                </h3>
+                <div class="post-meta">
+                    <time datetime="{{ post.date | date_to_xmlschema }}">
+                        {{ post.date | date: "%B %d, %Y" }}
+                    </time>
+                </div>
+                
+                {% if post.categories %}
+                <div class="post-categories">
+                    {% for category in post.categories %}
+                    <a href="{{ '/categories.html' | relative_url }}#{{ category | slugify }}" class="category-tag">{{ category }}</a>
+                    {% endfor %}
+                </div>
+                {% endif %}
+                
+                {% if post.excerpt %}
+                <div class="post-excerpt">
+                    {{ post.excerpt | strip_html | truncatewords: 50 }}
+                </div>
+                {% endif %}
+                
+                <a href="{{ post.url | relative_url }}" class="read-more">Read more &rarr;</a>
             </div>
-            
-            {% if post.categories %}
-            <div class="post-categories">
-                {% for category in post.categories %}
-                <a href="{{ '/categories.html' | relative_url }}#{{ category | slugify }}" class="category-tag">{{ category }}</a>
-                {% endfor %}
-            </div>
-            {% endif %}
-            
-            {% if post.excerpt %}
-            <div class="post-excerpt">
-                {{ post.excerpt | strip_html | truncatewords: 50 }}
-            </div>
-            {% endif %}
-            
-            <a href="{{ post.url | relative_url }}" class="read-more">Read more &rarr;</a>
         </article>
         {% endfor %}
     </div>
