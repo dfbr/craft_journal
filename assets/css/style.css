@@ -132,6 +132,14 @@ a:hover {
     align-items: stretch;
 }
 
+.post-preview.image-left {
+    flex-direction: row;
+}
+
+.post-preview.image-right {
+    flex-direction: row-reverse;
+}
+
 .post-preview:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
