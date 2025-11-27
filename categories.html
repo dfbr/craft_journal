@@ -1,0 +1,135 @@
+---
+layout: default
+title: Categories
+---
+
+<div class="categories-page">
+    <h2>Browse by Category</h2>
+    
+    {% comment %}
+    Dynamically generate list of all categories from posts
+    {% endcomment %}
+    {% assign all_categories = "" | split: "" %}
+    {% for post in site.posts %}
+        {% for category in post.categories %}
+            {% unless all_categories contains category %}
+                {% assign all_categories = all_categories | push: category %}
+            {% endunless %}
+        {% endfor %}
+    {% endfor %}
+    {% assign sorted_categories = all_categories | sort_natural %}
+    
+    {% if sorted_categories.size > 0 %}
+    
+    <!-- Category Search -->
+    <div class="category-search">
+        <input type="text" id="categorySearch" placeholder="Search categories or posts..." />
+    </div>
+    
+    <!-- Category Navigation -->
+    <nav class="category-nav">
+        <h3>Quick Jump:</h3>
+        <ul class="category-list">
+            {% for category in sorted_categories %}
+            <li><a href="#{{ category | slugify }}">{{ category }}</a> 
+                <span class="category-count">
+                    ({% assign category_posts = site.posts | where_exp: "post", "post.categories contains category" %}{{ category_posts.size }})
+                </span>
+            </li>
+            {% endfor %}
+        </ul>
+    </nav>
+    
+    <!-- Posts by Category -->
+    <div class="categories-content">
+        {% for category in sorted_categories %}
+        <section class="category-section" id="{{ category | slugify }}" data-category="{{ category | downcase }}">
+            <h3 class="category-heading">{{ category }}</h3>
+            
+            {% assign category_posts = site.posts | where_exp: "post", "post.categories contains category" | sort: "date" | reverse %}
+            
+            <ul class="post-list">
+                {% for post in category_posts %}
+                <li class="post-item" data-title="{{ post.title | downcase }}" data-excerpt="{{ post.excerpt | strip_html | downcase }}">
+                    <div class="post-info">
+                        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+                        <h4><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
+                        {% if post.excerpt %}
+                        <p class="excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+                        {% endif %}
+                        <div class="post-categories-mini">
+                            {% for cat in post.categories %}
+                            <span class="mini-tag">{{ cat }}</span>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </section>
+        {% endfor %}
+    </div>
+    
+    {% else %}
+    <p>No categories found. Add categories to your posts' YAML frontmatter.</p>
+    {% endif %}
+</div>
+
+<script>
+// Category and post search functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('categorySearch');
+    if (!searchInput) return;
+    
+    const categorySections = document.querySelectorAll('.category-section');
+    const categoryNavItems = document.querySelectorAll('.category-nav li');
+    
+    searchInput.addEventListener('input', function(e) {
+        const searchTerm = e.target.value.toLowerCase().trim();
+        
+        if (searchTerm === '') {
+            // Show all categories and posts
+            categorySections.forEach(section => section.style.display = 'block');
+            categoryNavItems.forEach(item => item.style.display = 'list-item');
+            document.querySelectorAll('.post-item').forEach(post => post.style.display = 'list-item');
+            return;
+        }
+        
+        // Search through categories and posts
+        categorySections.forEach(section => {
+            const categoryName = section.dataset.category;
+            const posts = section.querySelectorAll('.post-item');
+            let hasVisiblePosts = false;
+            
+            // Check if category name matches
+            const categoryMatches = categoryName.includes(searchTerm);
+            
+            // Check each post
+            posts.forEach(post => {
+                const title = post.dataset.title;
+                const excerpt = post.dataset.excerpt;
+                
+                if (categoryMatches || title.includes(searchTerm) || excerpt.includes(searchTerm)) {
+                    post.style.display = 'list-item';
+                    hasVisiblePosts = true;
+                } else {
+                    post.style.display = 'none';
+                }
+            });
+            
+            // Show/hide category section based on matches
+            section.style.display = hasVisiblePosts ? 'block' : 'none';
+        });
+        
+        // Update category navigation
+        categoryNavItems.forEach(item => {
+            const link = item.querySelector('a');
+            if (link) {
+                const categoryId = link.getAttribute('href').substring(1);
+                const section = document.getElementById(categoryId);
+                item.style.display = (section && section.style.display !== 'none') ? 'list-item' : 'none';
+            }
+        });
+    });
+});
+</script>

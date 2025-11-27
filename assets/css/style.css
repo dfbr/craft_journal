@@ -1,0 +1,502 @@
+/* ==========================================================================
+   Craft Journal Styles
+   ========================================================================== */
+
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Header */
+.site-header {
+    background-color: #fff;
+    border-bottom: 3px solid #007bff;
+    padding: 30px 0;
+    margin-bottom: 40px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.site-title {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+.site-title a {
+    color: #333;
+    text-decoration: none;
+}
+
+.site-title a:hover {
+    color: #007bff;
+}
+
+.site-description {
+    color: #666;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.site-nav {
+    margin-top: 15px;
+}
+
+.site-nav a {
+    margin-right: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    letter-spacing: 0.5px;
+}
+
+/* Main Content */
+.page-content {
+    min-height: calc(100vh - 300px);
+    padding: 20px 0;
+}
+
+/* Home Page - Post List */
+.home h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #333;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+}
+
+.post-list {
+    margin-bottom: 40px;
+}
+
+.post-preview {
+    background: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post-preview:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.post-preview h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.post-preview h3 a {
+    color: #333;
+}
+
+.post-preview h3 a:hover {
+    color: #007bff;
+}
+
+.post-meta {
+    color: #666;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+}
+
+.post-author {
+    margin-left: 10px;
+}
+
+.post-categories {
+    margin: 15px 0;
+}
+
+.categories-label {
+    font-weight: 600;
+    color: #666;
+    margin-right: 10px;
+}
+
+.category-tag {
+    display: inline-block;
+    background-color: #e9ecef;
+    color: #495057;
+    padding: 4px 12px;
+    margin: 0 5px 5px 0;
+    border-radius: 20px;
+    font-size: 0.85em;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.category-tag:hover {
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+}
+
+.post-excerpt {
+    margin: 15px 0;
+    color: #555;
+    line-height: 1.7;
+}
+
+.read-more {
+    color: #007bff;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.read-more:hover {
+    text-decoration: none;
+    color: #0056b3;
+}
+
+.view-all {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    text-decoration: none;
+}
+
+/* Individual Post */
+.post {
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.post-header {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #e9ecef;
+}
+
+.post-title {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.post-content {
+    line-height: 1.8;
+    color: #444;
+    font-size: 1.05em;
+}
+
+.post-content h2 {
+    font-size: 1.8em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.post-content h3 {
+    font-size: 1.4em;
+    margin-top: 25px;
+    margin-bottom: 12px;
+    color: #333;
+}
+
+.post-content ul, .post-content ol {
+    margin: 15px 0 15px 30px;
+}
+
+.post-content li {
+    margin-bottom: 8px;
+}
+
+.post-content p {
+    margin-bottom: 15px;
+}
+
+.post-content blockquote {
+    border-left: 4px solid #007bff;
+    padding-left: 20px;
+    margin: 20px 0;
+    font-style: italic;
+    color: #555;
+}
+
+.post-content code {
+    background-color: #f4f4f4;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 0.9em;
+}
+
+.post-content pre {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+    margin: 20px 0;
+}
+
+.post-footer {
+    margin-top: 40px;
+    padding-top: 30px;
+    border-top: 2px solid #e9ecef;
+}
+
+.post-tags {
+    margin-bottom: 20px;
+}
+
+.tags-label {
+    font-weight: 600;
+    color: #666;
+    margin-right: 10px;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #f8f9fa;
+    color: #495057;
+    padding: 4px 10px;
+    margin: 0 5px 5px 0;
+    border-radius: 3px;
+    font-size: 0.85em;
+}
+
+.post-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.prev-post, .next-post {
+    flex: 0 0 48%;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.prev-post:hover, .next-post:hover {
+    background-color: #e9ecef;
+    text-decoration: none;
+}
+
+.next-post {
+    text-align: right;
+}
+
+/* Categories Page */
+.categories-page h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #333;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+}
+
+.category-search {
+    margin: 30px 0;
+}
+
+.category-search input {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 1em;
+    border: 2px solid #e9ecef;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.category-search input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.category-nav {
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.category-nav h3 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.category-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.category-list li {
+    background-color: #f8f9fa;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.category-list li a {
+    font-weight: 500;
+}
+
+.category-count {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.category-section {
+    background: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.category-heading {
+    font-size: 1.8em;
+    color: #007bff;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e9ecef;
+}
+
+.category-section .post-list {
+    list-style: none;
+}
+
+.post-item {
+    padding: 20px 0;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.post-item:last-child {
+    border-bottom: none;
+}
+
+.post-info time {
+    display: inline-block;
+    color: #666;
+    font-size: 0.9em;
+    margin-bottom: 8px;
+}
+
+.post-info h4 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.post-info h4 a {
+    color: #333;
+}
+
+.post-info h4 a:hover {
+    color: #007bff;
+}
+
+.post-info .excerpt {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.post-categories-mini {
+    margin-top: 10px;
+}
+
+.mini-tag {
+    display: inline-block;
+    background-color: #e9ecef;
+    color: #495057;
+    padding: 3px 10px;
+    margin-right: 5px;
+    border-radius: 3px;
+    font-size: 0.8em;
+}
+
+/* Footer */
+.site-footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 60px;
+}
+
+.site-footer a {
+    color: #007bff;
+}
+
+.site-footer a:hover {
+    color: #0056b3;
+}
+
+.site-footer p {
+    margin: 5px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .site-title {
+        font-size: 2em;
+    }
+    
+    .post-preview, .post {
+        padding: 20px;
+    }
+    
+    .post-title {
+        font-size: 2em;
+    }
+    
+    .post-navigation {
+        flex-direction: column;
+    }
+    
+    .prev-post, .next-post {
+        flex: 1 1 100%;
+        margin-bottom: 10px;
+    }
+    
+    .category-list {
+        flex-direction: column;
+    }
+}

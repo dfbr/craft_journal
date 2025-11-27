@@ -1,0 +1,50 @@
+---
+layout: default
+title: Home
+---
+
+<div class="home">
+    <h2>Latest Posts</h2>
+    
+    {% assign posts_limit = site.posts_per_page | default: 5 %}
+    {% assign recent_posts = site.posts | limit: posts_limit %}
+    
+    {% if recent_posts.size > 0 %}
+    <div class="post-list">
+        {% for post in recent_posts %}
+        <article class="post-preview">
+            <h3 class="post-title">
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </h3>
+            <div class="post-meta">
+                <time datetime="{{ post.date | date_to_xmlschema }}">
+                    {{ post.date | date: "%B %d, %Y" }}
+                </time>
+            </div>
+            
+            {% if post.categories %}
+            <div class="post-categories">
+                {% for category in post.categories %}
+                <a href="{{ '/categories.html' | relative_url }}#{{ category | slugify }}" class="category-tag">{{ category }}</a>
+                {% endfor %}
+            </div>
+            {% endif %}
+            
+            {% if post.excerpt %}
+            <div class="post-excerpt">
+                {{ post.excerpt | strip_html | truncatewords: 50 }}
+            </div>
+            {% endif %}
+            
+            <a href="{{ post.url | relative_url }}" class="read-more">Read more &rarr;</a>
+        </article>
+        {% endfor %}
+    </div>
+    {% else %}
+    <p>No posts yet. Start writing!</p>
+    {% endif %}
+    
+    <div class="view-all">
+        <a href="{{ '/archive.html' | relative_url }}" class="btn">View All Posts</a>
+    </div>
+</div>

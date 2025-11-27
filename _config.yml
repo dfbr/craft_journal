@@ -1,0 +1,32 @@
+title: Craft Journal
+description: My personal crafting journal
+url: "https://yourusername.github.io"
+baseurl: "/craft_journal"
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:title/
+
+# Site settings
+posts_per_page: 5
+show_excerpts: true
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
