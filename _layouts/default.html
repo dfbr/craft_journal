@@ -29,6 +29,11 @@
                 </a>
                 <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
             </div>
+            <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
             <nav class="site-nav">
                 <a href="{{ '/' | relative_url }}">Home</a>
                 <a href="{{ '/categories.html' | relative_url }}">Categories</a>
@@ -49,5 +54,40 @@
             <p>Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.</p>
         </div>
     </footer>
+    
+    <script>
+    // Mobile Navigation Toggle
+    document.addEventListener('DOMContentLoaded', function() {
+        const menuToggle = document.querySelector('.menu-toggle');
+        const siteNav = document.querySelector('.site-nav');
+        
+        if (menuToggle && siteNav) {
+            menuToggle.addEventListener('click', function() {
+                const isExpanded = menuToggle.getAttribute('aria-expanded') === 'true';
+                menuToggle.setAttribute('aria-expanded', !isExpanded);
+                menuToggle.classList.toggle('active');
+                siteNav.classList.toggle('active');
+            });
+            
+            // Close menu when clicking on a link
+            siteNav.querySelectorAll('a').forEach(function(link) {
+                link.addEventListener('click', function() {
+                    menuToggle.classList.remove('active');
+                    siteNav.classList.remove('active');
+                    menuToggle.setAttribute('aria-expanded', 'false');
+                });
+            });
+            
+            // Close menu when clicking outside
+            document.addEventListener('click', function(event) {
+                if (!menuToggle.contains(event.target) && !siteNav.contains(event.target)) {
+                    menuToggle.classList.remove('active');
+                    siteNav.classList.remove('active');
+                    menuToggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+        }
+    });
+    </script>
 </body>
 </html>
