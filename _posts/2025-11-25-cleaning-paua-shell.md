@@ -20,7 +20,7 @@ project_details:
     - Cleaning vinegar
     - Water
     - Spray varnish, clear gloss
-  Suitable for Kids: Yes (all ages)
+  Suitable for Kids: Yes (with supervision for vinegar and spray painting)
 excerpt: "Clean and polish pāua shells collected from the beach. A fun family-friendly activity that creates beautiful keepsakes."
 ---
 
