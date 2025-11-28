@@ -13,7 +13,7 @@ project_details:
     - Internet connected device capable of showing videos
   Resources:
     - List of links below
-excerpt: "A brief summary of your post (1-2 sentences). This appears in RSS feeds, post previews, and search results."
+excerpt: "A list of links related to learning to wood turn. For when you can't get to a lathe."
 Suitable for Kids: Yes
 ---
 
