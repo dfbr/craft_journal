@@ -5,6 +5,7 @@ date: YYYY-MM-DD 00:00:00 -0000
 categories: [Category 1, Category 2, Category 3]
 author: Your Name
 featured_image: /assets/images/posts/your-post-name/featured.jpg
+featured_image_alt: "Describe the featured image for accessibility"
 project_details:
   Difficulty: Beginner/Intermediate/Advanced
   Time Required: X hours/days

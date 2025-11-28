@@ -5,6 +5,7 @@ date: 2025-11-27 00:00:00 -0000
 categories: [cleaning, pāua, polishing]
 author: Dave Rowan
 featured_image: /assets/images/posts/cleaning-paua-shell/featured.jpg
+featured_image_alt: "Polished pāua shell showing iridescent colors"
 project_details:
   Difficulty: Easy
   Time Required: 4 hours plus soaking time
