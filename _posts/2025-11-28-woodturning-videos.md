@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Your Post Title Here"
+title: "Videos about wood turning"
 date: 2025-11-28 00:00:00 -0000
 categories: [wood turning, videos, learning not doing]
 author: Your Name
