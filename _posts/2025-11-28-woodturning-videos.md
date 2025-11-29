@@ -23,14 +23,19 @@ Just a list of resources and videos to watch to learn more about wood turning.
 
 ## Videos
 
-- [Turn a wood bowl channel](https://www.youtube.com/@TurnAWoodBowl)
-  - [Fundamental playlist](https://www.youtube.com/watch?v=o2dS0FWfLT4&list=PLoJyGhc4_JBGw341nZp1aH20N4v-_dlbt)
-- [Woodturning Basics: A Beginner’s Course with Mike Peace](https://www.youtube.com/playlist?list=PLG3S-gdoXeXX3faIUNQC8OJiJ5h0Tx0tN)
-- [Beginners Guide to Woodturning Tools](https://www.youtube.com/watch?v=V0HLKwomml0)
+- [ ] [Turn a wood bowl channel](https://www.youtube.com/@TurnAWoodBowl)
+  - [ ] [Fundamental playlist](https://www.youtube.com/watch?v=o2dS0FWfLT4&list=PLoJyGhc4_JBGw341nZp1aH20N4v-_dlbt)
+- [ ] [Woodturning Basics: A Beginner’s Course with Mike Peace](https://www.youtube.com/playlist?list=PLG3S-gdoXeXX3faIUNQC8OJiJ5h0Tx0tN)
+- [ ] [Beginners Guide to Woodturning Tools](https://www.youtube.com/watch?v=V0HLKwomml0)
 
 ## Websites
 
-- [Introduction to Woodturning – What you need to get started](https://www.turningforprofit.com/introduction-to-woodturning/)
+- [ ] [Introduction to Woodturning – What you need to get started](https://www.turningforprofit.com/introduction-to-woodturning/)
+  - [ ] [Technique](https://www.turningforprofit.com/technique/)
+  - [ ] [How to Maintain Your Wood Lathe](https://www.turningforprofit.com/how-to-maintain-your-wood-lathe/)
+  - [ ] [Roughing Gouge – Turning Technique](https://www.turningforprofit.com/roughing-gouge/)
+  - [ ] [Turning Blanks from your Table Saw](https://www.turningforprofit.com/turning-blanks/)
+- 
 
 ## Books
 
