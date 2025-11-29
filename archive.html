@@ -6,12 +6,13 @@ title: All Posts from Craft Journal
 <div class="archive">
     <h2>All Posts</h2>
     
+    {% assign current_month_year = "" %}
     {% for post in site.posts %}
-        {% assign current_year = post.date | date: "%Y" %}
-        {% assign previous_year = post.previous.date | date: "%Y" %}
+        {% assign post_month_year = post.date | date: "%B %Y" %}
         
-        {% if forloop.first or current_year != previous_year %}
-        <h3 class="archive-year">{{ current_year }}</h3>
+        {% if post_month_year != current_month_year %}
+            {% assign current_month_year = post_month_year %}
+        <h3 class="archive-year">{{ post_month_year }}</h3>
         {% endif %}
         
         <article class="archive-post">
