@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Videos about wood turning"
+title: "Resources for wood turning"
 date: 2025-11-28 00:00:00 -0000
 categories: [wood turning, videos, "learning, not doing"]
-author: Your Name
+author:  David Rowan
 featured_image: /assets/images/posts/woodturning-videos/featured.jpg
 featured_image_alt: "Screen grab from turn a wood bowl video (woodturning log to bowl)"
 project_details:
@@ -11,6 +11,7 @@ project_details:
   Time Required: variable
   Equipment:
     - Internet connected device capable of showing videos
+    - Library or book shop
   Resources:
     - List of links below
 excerpt: "A list of links related to learning to wood turn. For when you can't get to a lathe."
@@ -30,7 +31,7 @@ Just a list of resources and videos to watch to learn more about wood turning.
 
 ## Websites
 
-- [ ] [Introduction to Woodturning – What you need to get started](https://www.turningforprofit.com/introduction-to-woodturning/)
+- [x] [Introduction to Woodturning – What you need to get started](https://www.turningforprofit.com/introduction-to-woodturning/)
   - [ ] [Technique](https://www.turningforprofit.com/technique/)
   - [ ] [How to Maintain Your Wood Lathe](https://www.turningforprofit.com/how-to-maintain-your-wood-lathe/)
   - [ ] [Roughing Gouge – Turning Technique](https://www.turningforprofit.com/roughing-gouge/)
