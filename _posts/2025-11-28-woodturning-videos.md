@@ -3,7 +3,7 @@ layout: post
 title: "Resources for wood turning"
 date: 2025-11-28 00:00:00 -0000
 categories: [wood turning, videos, "learning, not doing"]
-author:  David Rowan
+author:  Dave Rowan
 featured_image: /assets/images/posts/woodturning-videos/featured.jpg
 featured_image_alt: "Screen grab from turn a wood bowl video (woodturning log to bowl)"
 project_details:
