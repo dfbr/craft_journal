@@ -33,7 +33,7 @@ Just a list of resources and videos to watch to learn more about wood turning.
 
 - [x] [Introduction to Woodturning – What you need to get started](https://www.turningforprofit.com/introduction-to-woodturning/)
   - [ ] [Technique](https://www.turningforprofit.com/technique/)
-  - [ ] [How to Maintain Your Wood Lathe](https://www.turningforprofit.com/how-to-maintain-your-wood-lathe/)
+  - [x] [How to Maintain Your Wood Lathe](https://www.turningforprofit.com/how-to-maintain-your-wood-lathe/)
   - [ ] [Roughing Gouge – Turning Technique](https://www.turningforprofit.com/roughing-gouge/)
   - [ ] [Turning Blanks from your Table Saw](https://www.turningforprofit.com/turning-blanks/)
 - 
