@@ -1,7 +1,7 @@
 ---
 layout: post
 title: this is a test post
-date: 2025-12-03 14:54:51 +0000
+date: 2025-12-02 14:58:31 +0000
 categories: ['book review', 'cleaning', 'draw', 'learning, not doing', 'polishing', 'pāua', 'videos', 'wood turning']
 author: Dave Rowan
 featured_image: /assets/images/posts/this-is-a-test-post/featured.jpg
