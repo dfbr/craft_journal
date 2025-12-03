@@ -682,451 +682,49 @@ a:hover {
     color: #007bff;
 }
 
-/* ==========================================================================
-   Mobile Navigation Toggle
-   ========================================================================== */
-
-.menu-toggle {
-    display: none;
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-    margin-left: auto;
-}
-
-.menu-toggle span {
-    display: block;
-    width: 25px;
-    height: 3px;
-    background-color: #333;
-    margin: 5px 0;
-    transition: transform 0.3s ease, opacity 0.3s ease;
-    border-radius: 2px;
-}
-
-.menu-toggle.active span:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 5px);
-}
-
-.menu-toggle.active span:nth-child(2) {
-    opacity: 0;
-}
-
-.menu-toggle.active span:nth-child(3) {
-    transform: rotate(-45deg) translate(7px, -7px);
-}
-
-/* ==========================================================================
-   Responsive Design - Tablet and Smaller
-   ========================================================================== */
-
+/* Responsive Design */
 @media (max-width: 768px) {
-    /* Header and Navigation */
-    .site-header {
-        padding: 20px 0;
-        margin-bottom: 20px;
-    }
-    
-    .site-header .container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
     .site-branding {
-        flex-direction: row;
-        align-items: center;
+        flex-direction: column;
+        align-items: flex-start;
         gap: 10px;
-        margin-bottom: 0;
-        flex: 1;
     }
     
     .site-logo img {
-        height: 40px;
+        height: 50px;
     }
     
     .site-title {
-        font-size: 1.5em;
+        font-size: 2em;
     }
     
-    .menu-toggle {
-        display: block;
-    }
-    
-    .site-nav {
-        display: none;
-        flex-basis: 100%;
-        margin-top: 15px;
-        padding-top: 15px;
-        border-top: 1px solid #e9ecef;
-    }
-    
-    .site-nav.active {
-        display: block;
-    }
-    
-    .site-nav a {
-        display: block;
-        margin-right: 0;
-        padding: 12px 0;
-        border-bottom: 1px solid #e9ecef;
-    }
-    
-    .site-nav a:last-child {
-        border-bottom: none;
-    }
-    
-    /* Main Content */
-    .page-content {
-        padding: 10px 0;
-    }
-    
-    .container {
-        padding: 0 15px;
-    }
-    
-    /* Post Previews - Override flex-direction for both classes */
-    .post-preview,
-    .post-preview.image-left,
-    .post-preview.image-right {
+    .post-preview {
         flex-direction: column;
-        padding: 20px;
-        gap: 15px;
     }
     
     .post-featured-image {
         width: 100%;
-        height: 180px;
+        height: 200px;
     }
     
-    .post-preview h3 {
-        font-size: 1.4em;
-    }
-    
-    /* Individual Post */
-    .post {
+    .post-preview, .post {
         padding: 20px;
     }
     
-    .post-featured-image-full {
-        margin: -20px -20px 20px -20px;
-    }
-    
     .post-title {
-        font-size: 1.8em;
+        font-size: 2em;
     }
     
-    .post-content {
-        font-size: 1em;
-    }
-    
-    .post-content h2 {
-        font-size: 1.5em;
-    }
-    
-    .post-content h3 {
-        font-size: 1.2em;
-    }
-    
-    .post-content ul, .post-content ol {
-        margin-left: 20px;
-    }
-    
-    /* Post Navigation */
     .post-navigation {
         flex-direction: column;
-        gap: 10px;
     }
     
     .prev-post, .next-post {
         flex: 1 1 100%;
-        text-align: left;
-    }
-    
-    /* Project Details Table */
-    .project-details {
-        padding: 15px;
-    }
-    
-    .details-table {
-        display: block;
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-    }
-    
-    .detail-label {
-        width: auto;
-        min-width: 100px;
-    }
-    
-    /* Categories Page */
-    .category-nav {
-        padding: 15px;
+        margin-bottom: 10px;
     }
     
     .category-list {
         flex-direction: column;
-        gap: 8px;
-    }
-    
-    .category-section {
-        padding: 20px;
-    }
-    
-    .category-heading {
-        font-size: 1.4em;
-    }
-    
-    .category-search input {
-        padding: 10px 15px;
-    }
-    
-    /* About Page */
-    .about-page {
-        padding: 20px;
-    }
-    
-    .about-page h2 {
-        font-size: 1.6em;
-    }
-    
-    .about-page h3 {
-        font-size: 1.3em;
-    }
-    
-    /* Archive Page */
-    .archive h2 {
-        font-size: 1.6em;
-    }
-    
-    .archive-year {
-        font-size: 1.3em;
-    }
-    
-    .archive-post time {
-        display: block;
-        width: auto;
-        margin-bottom: 4px;
-    }
-    
-    /* Footer */
-    .site-footer {
-        padding: 20px 0;
-        margin-top: 40px;
-    }
-    
-    .site-footer p {
-        font-size: 0.9em;
-    }
-    
-    /* Home page headings */
-    .home h2 {
-        font-size: 1.6em;
-    }
-    
-    /* Buttons */
-    .btn {
-        padding: 10px 24px;
-        font-size: 0.95em;
-    }
-    
-    .view-all {
-        margin-top: 30px;
-    }
-}
-
-/* ==========================================================================
-   Responsive Design - Mobile Small
-   ========================================================================== */
-
-@media (max-width: 480px) {
-    /* Header */
-    .site-title {
-        font-size: 1.2em;
-    }
-    
-    .site-logo img {
-        height: 35px;
-    }
-    
-    /* Container */
-    .container {
-        padding: 0 12px;
-    }
-    
-    /* Post Previews */
-    .post-preview {
-        padding: 15px;
-        margin-bottom: 20px;
-    }
-    
-    .post-featured-image {
-        height: 150px;
-    }
-    
-    .post-preview h3 {
-        font-size: 1.2em;
-    }
-    
-    .post-excerpt {
-        font-size: 0.95em;
-    }
-    
-    .read-more {
-        font-size: 0.9em;
-    }
-    
-    /* Individual Post */
-    .post {
-        padding: 15px;
-    }
-    
-    .post-featured-image-full {
-        margin: -15px -15px 15px -15px;
-    }
-    
-    .post-title {
-        font-size: 1.5em;
-    }
-    
-    .post-meta {
-        font-size: 0.85em;
-    }
-    
-    /* Category tags */
-    .category-tag {
-        padding: 3px 10px;
-        font-size: 0.8em;
-    }
-    
-    /* Project Details - Stack on mobile */
-    .details-table thead {
-        display: none;
-    }
-    
-    .details-table tbody,
-    .details-table tr,
-    .details-table td {
-        display: block;
-        width: 100%;
-    }
-    
-    .details-table tr {
-        margin-bottom: 15px;
-        border-bottom: 2px solid #e9ecef;
-        padding-bottom: 15px;
-    }
-    
-    .details-table tr:last-child {
-        border-bottom: none;
-        margin-bottom: 0;
-        padding-bottom: 0;
-    }
-    
-    .detail-label {
-        font-weight: 700;
-        margin-bottom: 5px;
-        padding: 8px 10px;
-        background-color: #f8f9fa;
-        border-radius: 4px;
-    }
-    
-    .details-table td:last-child {
-        padding: 10px;
-    }
-    
-    /* Categories Page */
-    .category-section {
-        padding: 15px;
-    }
-    
-    .category-heading {
-        font-size: 1.2em;
-    }
-    
-    .post-info h4 {
-        font-size: 1.1em;
-    }
-    
-    /* About Page */
-    .about-page {
-        padding: 15px;
-    }
-    
-    .about-page ul {
-        margin-left: 20px;
-    }
-    
-    /* Home headings */
-    .home h2 {
-        font-size: 1.4em;
-    }
-    
-    /* Buttons - Full width on very small screens */
-    .btn {
-        display: block;
-        width: 100%;
-        text-align: center;
-    }
-}
-
-/* ==========================================================================
-   Touch-friendly Improvements
-   ========================================================================== */
-
-@media (hover: none) and (pointer: coarse) {
-    /* Increase touch targets */
-    .site-nav a {
-        padding: 14px 0;
-    }
-    
-    .category-list li {
-        padding: 12px 18px;
-    }
-    
-    .category-tag {
-        padding: 6px 14px;
-    }
-    
-    .btn {
-        padding: 14px 28px;
-    }
-    
-    .prev-post, .next-post {
-        padding: 18px;
-    }
-    
-    /* Disable hover effects that don't work well on touch */
-    .post-preview:hover {
-        transform: none;
-    }
-    
-    .post-featured-image a:hover img {
-        transform: none;
-    }
-    
-    .site-logo:hover img {
-        transform: none;
-    }
-}
-
-/* ==========================================================================
-   Landscape Mobile Adjustments
-   ========================================================================== */
-
-@media (max-height: 500px) and (orientation: landscape) {
-    .site-header {
-        padding: 10px 0;
-    }
-    
-    .site-nav.active {
-        max-height: 40vh;
-        overflow-y: auto;
-    }
-    
-    .post-featured-image {
-        height: 120px;
     }
 }
