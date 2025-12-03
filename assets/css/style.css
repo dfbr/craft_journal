@@ -1,3 +1,25 @@
+/* Post details side-by-side layout */
+.post-details-wrap {
+    display: flex;
+    gap: 20px;
+    align-items: stretch;
+    margin-bottom: 24px;
+}
+.post-featured-image-side {
+    flex: 0 0 280px; /* preview width similar to index */
+    display: flex;
+    align-items: stretch;
+}
+.post-featured-image-side img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.project-details {
+    flex: 1 1 auto;
+}
+
 /* ==========================================================================
    Craft Journal Styles
    ========================================================================== */
