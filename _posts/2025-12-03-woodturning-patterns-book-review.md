@@ -11,7 +11,9 @@ project_details:
   Time Required: 1-2 hours
   Equipment:
     - The book Woodturning patterns by David Heim
-excerpt: "David Heim has published a book of woodturning patterns that fires the imagination even if you don't want to use it to directly copy the designs."
+  Resources:
+    - Your attention
+excerpt: "David Heim has published a book of woodturning patterns that fires the imagination even if you don't want to use it to directly copy the designs. The book is useful, but not essential."
 Suitable for Kids: Yes
 ---
 
