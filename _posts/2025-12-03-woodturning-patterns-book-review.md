@@ -10,7 +10,7 @@ project_details:
   Difficulty: Beginner
   Time Required: 1-2 hours
   Equipment:
-    - [Woodturning patterns by David Heim](https://www.amazon.co.uk/Woodturning-Patterns/dp/1950934179)
+    - The book Woodturning patterns by David Heim
 excerpt: "David Heim has published a book of woodturning patterns that fires the imagination even if you don't want to use it to directly copy the designs."
 ---
 
