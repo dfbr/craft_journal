@@ -15,7 +15,7 @@ excerpt: "David Heim has published a book of woodturning patterns that fires the
 Suitable for Kids: Yes
 ---
 
-# [Woodturning patterns by David Heim](https://www.amazon.co.uk/Woodturning-Patterns/dp/1950934179)
+[Woodturning patterns by David Heim](https://www.amazon.co.uk/Woodturning-Patterns/dp/1950934179)
 
 David Heim has written a book with over 80 patterns for wood turning. 
 
