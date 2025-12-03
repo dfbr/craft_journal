@@ -4,7 +4,7 @@ title: "Woodturning patterns book review"
 date: 2025-12-03 00:00:00 -0000
 categories: [wood turning, book review]
 author: Dave Rowan
-featured_image: /assets/images/posts/your-post-name/featured.jpg
+featured_image: /assets/images/posts/woodturning-patterns-book-review/featured.jpg
 featured_image_alt: "A copy of woodturning patterns book on a wooden table"
 project_details:
   Difficulty: Beginner
