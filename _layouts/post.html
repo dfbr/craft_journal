@@ -3,15 +3,13 @@ layout: default
 ---
 
 <article class="post">
+    {% if page.featured_image %}
+    <div class="post-featured-image-full">
+        <img src="{{ page.featured_image | relative_url }}" alt="{{ page.featured_image_alt | default: page.title }}">
+    </div>
+    {% endif %}
     <header class="post-header">
         <h1 class="post-title">{{ page.title }}</h1>
-
-        {% if page.featured_image %}
-        <div class="post-featured-image-full">
-            <img src="{{ page.featured_image | relative_url }}" alt="{{ page.featured_image_alt | default: page.title }}">
-        </div>
-        {% endif %}
-
         <div class="post-meta">
             <time datetime="{{ page.date | date_to_xmlschema }}">
                 {{ page.date | date: "%B %d, %Y" }}
@@ -20,6 +18,7 @@ layout: default
             <span class="post-author">by {{ page.author }}</span>
             {% endif %}
         </div>
+        
         {% if page.categories %}
         <div class="post-categories">
             <span class="categories-label">Categories:</span>
@@ -59,7 +58,7 @@ layout: default
         </table>
     </div>
     {% endif %}
-    
+
     <div class="post-content">
         {{ content }}
     </div>
