@@ -21,11 +21,6 @@ layout: default
             {% endfor %}
         </div>
         {% endif %}
-        {% if page.featured_image %}
-        <div class="post-featured-image-full">
-            <img src="{{ page.featured_image | relative_url }}" alt="{{ page.featured_image_alt | default: page.title }}">
-        </div>
-        {% endif %}
     </header>
 
     {% if page.project_details %}
@@ -58,6 +53,12 @@ layout: default
     </div>
     {% endif %}
 
+    {% if page.featured_image %}
+    <div class="post-featured-image-full">
+        <img src="{{ page.featured_image | relative_url }}" alt="{{ page.featured_image_alt | default: page.title }}">
+    </div>
+    {% endif %}
+    
     <div class="post-content">
         {{ content }}
     </div>
