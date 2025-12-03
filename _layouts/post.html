@@ -30,49 +30,49 @@ layout: default
     </header>
 
     {% if page.project_details %}
-    <div class="project-details">
-        <table class="details-table">
-            <thead>
-                <tr>
-                    <th colspan="2">Project Details</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for detail in page.project_details %}
-            <div class="post-details-wrap">
-                {% if page.featured_image %}
-                <div class="post-featured-image post-featured-image-side">
-                    <img id="post-featured-image" src="{{ page.featured_image | relative_url }}" alt="{{ page.featured_image_alt | default: page.title }}">
-                </div>
-                {% endif %}
-                <div class="project-details">
-                    <table class="details-table">
-                        <thead>
-                            <tr>
-                                <th colspan="2">Project Details</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {% for detail in page.project_details %}
-                            <tr>
-                                <td class="detail-label">{{ detail[0] }}</td>
-                                <td>
-                                    {% if detail[1].first %}
-                                    <ul class="detail-list">
-                                        {% for item in detail[1] %}
-                                        <li>{{ item }}</li>
-                                        {% endfor %}
-                                    </ul>
-                                    {% else %}
-                                    {{ detail[1] }}
-                                    {% endif %}
-                                </td>
-                            </tr>
-                            {% endfor %}
-                        </tbody>
-                    </table>
-                </div>
-            </div>
+    <div class="post-details-wrap">
+        {% if page.featured_image %}
+        <div class="post-featured-image post-featured-image-side">
+            <img id="post-featured-image" src="{{ page.featured_image | relative_url }}" alt="{{ page.featured_image_alt | default: page.title }}">
+        </div>
+        {% endif %}
+        <div class="project-details">
+            <table class="details-table">
+                <thead>
+                    <tr>
+                        <th colspan="2">Project Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for detail in page.project_details %}
+                    <tr>
+                        <td class="detail-label">{{ detail[0] }}</td>
+                        <td>
+                            {% if detail[1].first %}
+                            <ul class="detail-list">
+                                {% for item in detail[1] %}
+                                <li>{{ item }}</li>
+                                {% endfor %}
+                            </ul>
+                            {% else %}
+                            {{ detail[1] }}
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    {% endif %}
+
+    <div class="post-content">
+        {{ content }}
+    </div>
+
+    <footer class="post-footer">
+        <div class="post-navigation">
+            {% if page.previous.url %}
             <a href="{{ page.previous.url | relative_url }}" class="prev-post">&larr; {{ page.previous.title }}</a>
             {% endif %}
             {% if page.next.url %}
