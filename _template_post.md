@@ -3,7 +3,7 @@ layout: post
 title: "Your Post Title Here"
 date: YYYY-MM-DD 00:00:00 -0000
 categories: [Category 1, Category 2, Category 3]
-author: Your Name
+author: Dave Rowan
 featured_image: /assets/images/posts/your-post-name/featured.jpg
 featured_image_alt: "Describe the featured image for accessibility"
 project_details:
