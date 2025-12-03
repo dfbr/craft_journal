@@ -13,7 +13,7 @@ project_details:
     - Bucket
     - Measuring jug
     - Scrubbing brush
-    - Sanding blocks (60 - 1000 grit)
+    - Sand paper/blocks (40 - 1000 grit)
   Resources:
     - Pāua shells
     - Bleach
@@ -63,15 +63,15 @@ Leave them bubbling for about 20 minutes, then safely drain the vinegar and rins
 
 ## Sand the outside of the shells
 
-Sponge sanding blocks are a good idea for this sanding as they match the contours of the shell better than your hand or a hard sanding block.
+Sponge sanding blocks are a good idea for this sanding as they match the contours of the shell better than your hand or a hard sanding block. But sandpaper at the low grits may give better results. 
 
-You can choose whether or not to let the shell dry - if you do, the sanding block won't clog as quickly but if you don't you can get going more quickly. Your choice.
+If you're using sandpaper, thoroughly dry the shell. For sponge sanding blocks you can choose whether or not to let the shell dry - if you do, the sanding block won't clog as quickly but if you don't you can get going more quickly. Your choice.
 
-Take your lowest grit sanding block (about 60 is a good place to start) and start sanding the outside of the shell. This will take quite a long time depending on the buildup of the calcified coating.
+Take your lowest grit sanding block (about 40 or 60 is a good  level to start) and start sanding the outside of the shell. This will take quite a long time depending on the buildup of the calcified coating.
 
 Keep sanding until you can see the beautiful iridescent colour over most of the shell.
 
-Now start working your way through progressively smoother sanding blocks. This will get the last of the calcified coating from the shell and start polishing. I worked through 60, 80, 140, 200, 400, 600 and finished with 800.
+Now start working your way through progressively smoother sanding blocks/paper. This will get the last of the calcified coating from the shell and start polishing. I worked through 60, 80, 140, 200, 400, 600 and finished with 800.
 
 Depending on the size of the shell and the amount of calcified coating on the outside this could take anywhere from 20 minutes to 4 hours to get a good result.
 
