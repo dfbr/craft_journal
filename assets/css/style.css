@@ -822,8 +822,10 @@ a:hover {
     }
     
     /* Index Page - Post Previews */
-    .post-preview {
-        flex-direction: column;
+    .post-preview,
+    .post-preview.image-left,
+    .post-preview.image-right {
+        flex-direction: column !important;
     }
     
     .post-featured-image {
