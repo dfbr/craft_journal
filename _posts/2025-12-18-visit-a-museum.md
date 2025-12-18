@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Visit a Museum
-date: 2025-12-18 05:42:25 +0000
+date: 2025-12-18 00:00:00 -0000
 categories: [inspiration, "learning, not doing", museums]
 author: Dave Rowan
 featured_image: /assets/images/posts/visit-a-museum/featured.jpg
