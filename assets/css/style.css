@@ -16,6 +16,10 @@
     object-fit: cover;
     border-radius: 8px;
 }
+/* Ensure figure element doesn't add extra margin */
+figure.post-featured-image-side {
+    margin: 0;
+}
 .project-details {
     flex: 1 1 auto;
 }
@@ -23,6 +27,19 @@
 /* ==========================================================================
    Craft Journal Styles
    ========================================================================== */
+
+/* Accessibility - Visually Hidden */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
 
 /* Reset and Base Styles */
 * {
@@ -440,6 +457,64 @@ a:hover {
     line-height: 1.8;
     color: #444;
     font-size: 1.05em;
+}
+
+.post-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.post-content figure {
+    margin: 20px 0;
+}
+
+.post-content figure img {
+    margin: 0 auto;
+}
+
+.post-content figcaption {
+    text-align: center;
+    font-style: italic;
+    color: #666;
+    font-size: 0.9em;
+    margin-top: 8px;
+}
+
+.post-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.post-content table caption {
+    caption-side: top;
+    padding: 10px;
+    font-weight: 600;
+    text-align: left;
+    background-color: #f8f9fa;
+}
+
+.post-content table thead {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.post-content table th,
+.post-content table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.post-content table tbody tr:last-child td {
+    border-bottom: none;
 }
 
 .post-content h2 {
