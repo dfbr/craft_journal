@@ -9,7 +9,6 @@ featured_image_alt: "Museum gallery frame representing cultural and historical i
 project_details:
   Difficulty: Beginner
   Time Required: 2-4 hours
-  Suitable for Kids: Yes (all ages)
   Equipment:
     - Notebook and pen/pencil
     - Camera or smartphone (if photography permitted)
@@ -19,6 +18,7 @@ project_details:
     - Local museum admission
     - Museum guidebook or map
     - Optional audio guide
+  Suitable for Kids: Yes (all ages)
 excerpt: "Museums are treasure troves of inspiration for crafters. Discover how exploring historical and cultural exhibits can spark creativity and guide your next project through the techniques and artistry of past artisans."
 ---
 
@@ -104,6 +104,4 @@ Sometimes the influence is direct: "I'm going to try that joinery technique." So
 
 The museums preserve not just objects but knowledge—knowledge that belongs to all of us. As crafters, we're part of an unbroken chain of makers stretching back thousands of years. Museums help us see our place in that continuum and give us permission to learn from, honor, and build upon everything that came before.
 
-So take a few hours away from your tools and materials. Visit a museum. Study what skilled hands created in different times and places. Let the ingenuity, artistry, and craft knowledge of past artisans guide and inspire your own creative journey. You'll return to your workshop with fresh eyes and renewed enthusiasm, carrying new ideas and deeper understanding.
-
-Your next project is waiting—and its inspiration might be hanging on a museum wall.
+So take a few hours away from your tools and materials. Visit a museum. Study what skilled hands created in different times and places. Let the ingenuity, artistry, and craft knowledge of past artisans guide and inspire your own creative journey. You'll return to your workshop with fresh eyes and renewed enthusiasm, carrying new ideas and deeper understanding. Your next project is waiting—and its inspiration might be hanging on a museum wall.
