@@ -25,4 +25,25 @@ This directory should contain your custom favicon files:
    - Use an online converter to create .ico and various sizes
 
 ## Current Status
-The template is already configured to use these files. Just replace the placeholders with your actual favicon files.
+✓ **Complete** - Favicons have been generated from logo.png and the site is configured to use them.
+
+## Generated Files
+
+The following favicon files have been generated and are ready to use:
+
+- `favicon.ico` - Multi-size ICO (16x16, 32x32, 48x48) for legacy browser support
+- `favicon-16x16.png` - 16x16 PNG favicon for modern browsers
+- `favicon-32x32.png` - 32x32 PNG favicon for modern browsers
+- `apple-touch-icon.png` - 180x180 icon for Apple devices (iOS/iPadOS)
+- `favicon-192x192.png` - 192x192 icon for Android devices
+- `favicon-512x512.png` - 512x512 icon for Android/PWA high-resolution displays
+
+## Regenerating Favicons
+
+If you need to regenerate the favicons (e.g., after updating logo.png):
+
+```bash
+python3 generate_favicons.py
+```
+
+This will regenerate all favicon files from `assets/images/logo.png`.
