@@ -1,7 +1,7 @@
 title: Craft Journal
 description: A journal of various craft projects
-url: "https://dfbr.github.io"
-baseurl: "/craft_journal"
+url: "https://craft.dfbr.co.uk"
+baseurl: ""
 
 # Build settings
 markdown: kramdown
