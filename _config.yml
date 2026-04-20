@@ -40,3 +40,4 @@ exclude:
   - .gitignore
   - generate_favicons.py
   - _template_post.md
+  - new_post.py
